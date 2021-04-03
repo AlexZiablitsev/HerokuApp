@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "cd0085a3-9f9e-4916-b57e-8fac01c1867e",
+		"name": "AQA04onl",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Project",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/index.php?/api/v2/get_project/80",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "/api/v2/get_project/80",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Projects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/index.php?/api/v2/get_projects",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "/api/v2/get_projects",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Project",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"AZjablicev_01\",\r\n\t\"announcement\": \"This is the description for the project\",\r\n\t\"show_announcement\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}index.php?/api/v2/add_project",
+					"host": [
+						"{{baseUrl}}index",
+						"php"
+					],
+					"query": [
+						{
+							"key": "/api/v2/add_project",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Project",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 81,\r\n    \"name\": \"AZjablicev_01\",\r\n    \"announcement\": \"lalala\",\r\n    \"show_announcement\": false,\r\n    \"is_completed\": false,\r\n    \"completed_on\": null,\r\n    \"suite_mode\": 3,\r\n    \"url\": \"https://aqa04onl01.testrail.io/index.php?/projects/overview/81\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}index.php?/api/v2/update_project/81",
+					"host": [
+						"{{baseUrl}}index",
+						"php"
+					],
+					"query": [
+						{
+							"key": "/api/v2/update_project/81",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Project",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}index.php?/api/v2/delete_project/81",
+					"host": [
+						"{{baseUrl}}index",
+						"php"
+					],
+					"query": [
+						{
+							"key": "/api/v2/delete_project/81",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "atrostyanko+0401@gmail.com",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "QqtRK9elseEfAk6ilYcJ",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
