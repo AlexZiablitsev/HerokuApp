@@ -26,5 +26,16 @@
       "completed_on": null,
       "suite_mode": 3
     }
+  ],
+  "milestone": [
+    {
+      "name": "Lesson 9 Milestone 3",
+      "refs": null,
+      "parent_id": null,
+      "description": "Add first milestone",
+      "start_on": 1618617600,
+      "due_on": 1618790400,
+      "is_completed": false
+    }
   ]
 }
