@@ -1,0 +1,30 @@
+{
+  "projects": [
+    {
+      "id": 1080,
+      "name": "AZjablicev_01",
+      "announcement": "lalaal",
+      "is_completed": false,
+      "completed_on": null,
+      "suite_mode": 1
+    },
+    {
+      "id": 1081,
+      "name": "AZjablicev_02",
+      "announcement": "lalalala",
+      "show_announcement": true,
+      "is_completed": false,
+      "completed_on": null,
+      "suite_mode": 2
+    },
+    {
+      "id": 1082,
+      "name": "AZjablicev_03",
+      "announcement": "ulalaulala",
+      "show_announcement": true,
+      "is_completed": false,
+      "completed_on": null,
+      "suite_mode": 3
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+    <project id="1">
+        <id>1080</id>
+        <name>AZjablicev_01</name>
+        <announcement>lalaal</announcement>
+        <is_completed>false</is_completed>
+        <completed_on>null</completed_on>
+        <suite_mode>1</suite_mode>
+    </project>
+    <project id="2">
+        <id>1081</id>
+        <name>AZjablicev_02</name>
+        <announcement>lalalala</announcement>
+        <is_completed>false</is_completed>
+        <completed_on>null</completed_on>
+        <suite_mode>2</suite_mode>
+    </project>
+    <project id="3">
+        <id>1082</id>
+        <name>AZjablicev_03</name>
+        <announcement>ulalaulala</announcement>
+        <is_completed>false</is_completed>
+        <completed_on>null</completed_on>
+        <suite_mode>3</suite_mode>
+    </project>
+</projects>
