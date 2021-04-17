@@ -32,12 +32,12 @@
     <milestones>
         <milestone>
             <name>Lesson 9 Milestone 3</name>
-            "refs": null,
-            "parent_id": null,
-            "description": "Add first milestone",
-            "start_on": 1618617600,
-            "due_on": 1618790400,
-            "is_completed": false
+            <refs>null</refs>
+            <parent_id>null</parent_id>
+            <description>Add first milestone</description>
+            <start_on>1618617600</start_on>
+            <due_on>1618790400</due_on>
+            <is_completed>false</is_completed>
         </milestone>
     </milestones>
 </projects>
