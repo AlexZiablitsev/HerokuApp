@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "id": 1080,
+      "name": "AZjablicev_01",
+      "announcement": "lalaal",
+      "is_completed": false,
+      "completed_on": null,
+      "suite_mode": 1
+    },
+    {
+      "id": 1081,
+      "name": "AZjablicev_02",
+      "announcement": "lalalala",
+      "show_announcement": true,
+      "is_completed": false,
+      "completed_on": null,
+      "suite_mode": 2
+    },
+    {
+      "id": 1082,
+      "name": "AZjablicev_03",
+      "announcement": "ulalaulala",
+      "show_announcement": true,
+      "is_completed": false,
+      "completed_on": null,
+      "suite_mode": 3
+    }
+  ],
+  "milestone": [
+    {
+      "name": "Lesson 9 Milestone 3",
+      "refs": null,
+      "parent_id": null,
+      "description": "Add first milestone",
+      "start_on": 1618617600,
+      "due_on": 1618790400,
+      "is_completed": false
+    }
+  ]
+}

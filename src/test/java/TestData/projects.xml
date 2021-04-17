@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+    <projectType>
+        <project id="1">
+            <id>1080</id>
+            <name>AZjablicev_01</name>
+            <announcement>lalaal</announcement>
+            <is_completed>false</is_completed>
+            <completed_on>null</completed_on>
+            <suite_mode>1</suite_mode>
+        </project>
+
+        <project id="2">
+            <id>1081</id>
+            <name>AZjablicev_02</name>
+            <announcement>lalalala</announcement>
+            <is_completed>false</is_completed>
+            <completed_on>null</completed_on>
+            <suite_mode>2</suite_mode>
+        </project>
+
+        <project id="3">
+            <id>1082</id>
+            <name>AZjablicev_03</name>
+            <announcement>ulalaulala</announcement>
+            <is_completed>false</is_completed>
+            <completed_on>null</completed_on>
+            <suite_mode>3</suite_mode>
+        </project>
+    </projectType>
+
+    <milestones>
+        <milestone>
+            <name>Lesson 9 Milestone 3</name>
+            <refs>null</refs>
+            <parent_id>null</parent_id>
+            <description>Add first milestone</description>
+            <start_on>1618617600</start_on>
+            <due_on>1618790400</due_on>
+            <is_completed>false</is_completed>
+        </milestone>
+    </milestones>
+</projects>
